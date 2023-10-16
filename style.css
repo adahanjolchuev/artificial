@@ -1,0 +1,263 @@
+* {
+   padding: 0; 
+   margin: 0;
+   font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+background: #020421;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    margin: border 1px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.header-links a {
+    margin: 10px 20px;
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+}
+.button {
+    color: var(--ffffff, #FFF);
+font-size: 13px;
+font-weight: 600px;
+border-radius: 3px;
+border: none;
+height: 47px;
+padding: 15px 30px 27px 30px;
+align-items: flex-start;
+gap: 10px;
+background: var(--3-a-68-b-8, #3A68B8);
+}
+/* HEADER */
+
+/* HERO */
+.hero {
+}
+
+.hero-h3 {
+    margin-top: 100px;
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 160%; 
+margin-top: 100px;
+}
+h1 {
+    color: var(--ffffff, #FFF);
+font-size: 55px;
+font-weight: 1000;
+line-height: 130%; 
+}
+
+p {
+    margin: 40px 0;
+    color: var(--ffffff, #FFF);
+font-size: 15px;
+font-weight: 400;
+line-height: 160%; 
+}
+.button-left {
+    color: var(--ffffff, #FFF);
+font-size: 18px;
+font-weight: 600;
+padding: 10px 30px;
+border: none;
+    border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+}
+
+.button-right {
+    margin-left: 10px;
+    color: var(--ffffff, #FFF);
+fill: var(--ffffff, #FFF);
+
+font-size: 18px;
+font-weight: 600;
+padding: 10px 40px;
+border: none;
+    border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+}
+.hero-img {
+    margin: 0 80px;
+}
+/* HERO */
+
+
+
+
+/* HERO2 */
+#hero {
+    margin: 70px 40px;
+    
+}
+.hero {
+    display: flex;
+    align-items: center;
+}
+h1 {
+    margin: 20px    0;  
+    color: var(--ffffff, #FFF);
+font-size: 40px;
+font-weight: 700;
+line-height: 130%; 
+}
+
+.hero-img {
+    margin: 50px;
+    font-size: 5px;
+}
+.button {
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+padding: 15px 30px;
+border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+}
+/* HERO2 */
+
+
+/* SECTION */
+
+
+        
+.blocks { 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.block {
+    width: 400px;
+    height: 450px;
+    
+    border-radius: 10px;
+    
+    background: var(--020-a-18, #051228);
+
+}
+
+ .block-img {
+padding: 60px 0;
+padding-left: 150px;
+    width: 83.277px;
+height: 84.787px;
+    border-radius: 20px;
+}
+
+.block-h1 {
+    width: 344.516px;
+height: 76.185px;
+    margin: 3px 90px;
+    color: gray;
+font-size: 20px;
+font-weight: 700;
+line-height: 31.25px; 
+}
+
+.block-p {
+margin-left: 90px;
+    color: gray;
+font-size: 12px;
+font-weight: 400;
+line-height:25.6px; 
+}
+
+/* SECTION */
+
+/* CLIENTS */
+.clients {
+    margin: 80px 150px;
+    display: flex;
+
+}
+.clients-h1 {
+    color: var(--ffffff, #FFF);
+font-size: 40px;
+font-weight: 700;
+line-height:  52px; /* */
+}
+.clients-p {
+    color: gray;
+font-size: 13px;
+font-weight: 400;
+line-height: 25.6px; /*  */
+}
+/* CLIENTS */
+
+/* FOOTER */
+
+.footer {
+    margin-top: 50px;
+    margin: 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-left {
+margin-top: 20px;
+}
+.footer-left h3 {
+    margin: 10px 0;   
+    color: var(--3-a-68-b-8, #3A68B8);
+font-size: 15.963px;
+font-weight: 600;
+}
+.footer-left p {
+    margin: 10px 0;
+}
+.footer-left {
+margin-top: 50px;
+}
+.footer p {
+    color:gray;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.footer h4 {
+    margin-top: 20px;
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 500;
+}
+
+.footer-infor h3 {
+    margin-top: 50px;
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 500;
+}
+.footer-infor p {
+    margin: 27px 0;
+}
+.footer-about {
+    margin-top: 50px;
+}
+.footer-about h3 {
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 500;
+    }
+.footer-about p {
+    color: grey;
+font-size: 14px;
+font-weight: 450;
+    margin: 30px 0;
+}
+.footer-about img {
+    margin-top: 20px;
+}
+
+
+/* FOOTER */
